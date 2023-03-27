@@ -7,8 +7,9 @@
 header {
   height: 100px;
   background-color: darkslateblue;
-  border-style: 2px solid;
+  border-style: solid;
   border-color: black;
+  border-width: 2px;
   display: flex;
   align-items: center;
 }
@@ -17,6 +18,12 @@ header h1 {
   padding-left: 25px;
 }
 
-header h1 .threelinks {
-  padding-right: 0%;
+nav {
+  left: 60%;
+  position: relative;
+}
+
+.three-links {
+  display: inline;
+  left: 10%;
 }
