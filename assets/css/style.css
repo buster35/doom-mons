@@ -1,17 +1,28 @@
 * {
   box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+header {
+  display: flex;
+  font-size: 6rem;
+  font-weight: bold;
+  padding: 40px;
+  text-align: center;
+  justify-content: center;
+  background: #13293d;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  font-size: 4rem;
+  justify-content: space-evenly;
 }
 
 body {
   font-family: Arial;
   margin: 0;
-}
-
-header {
-  padding: 40px;
-  text-align: center;
-  background: #13293d;
-  color: #fff;
 }
 
 /* 
