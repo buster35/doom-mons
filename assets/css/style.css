@@ -78,6 +78,7 @@ We are making the product card not growable, not shrinkable, and with an initial
   border-radius: 10px;
   padding: 10px;
   flex: 0 0 400px;
+  margin: 5px;
 }
 
 .card header {
@@ -90,6 +91,27 @@ We are making the product card not growable, not shrinkable, and with an initial
 
 .card img {
   width: 100%;
+}
+
+.first-card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 0 0 1000px;
+  margin: 5px;
+}
+
+.first-card header {
+  padding: 20px;
+}
+
+.first-card p {
+  text-align: center;
+}
+
+.first-card img {
+  width: 95%;
 }
 
 /* 
