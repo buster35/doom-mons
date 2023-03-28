@@ -14,13 +14,11 @@ header {
   background-image: linear-gradient(to left top, #022655, #dededf);
 }
 
-header#aspire {
-}
-
 nav {
   display: flex;
   font-size: 4rem;
   justify-content: space-evenly;
+  background-color: #d8a47f;
 }
 
 body {
@@ -28,13 +26,8 @@ body {
   margin: 0;
 }
 
-/* 
-What happens when we set the display property to flex?
-The flex container becomes flexible 
-*/
-nav {
-  display: flex;
-  background-color: #d8a47f;
+body p {
+  font-size: 1.7rem;
 }
 
 nav a {
@@ -44,10 +37,6 @@ nav a {
   text-align: center;
 }
 
-/* 
-What is the flex-wrap property?
-It specifies whether the flex items should wrap or not 
-*/
 main {
   display: flex;
   flex-wrap: wrap;
@@ -56,8 +45,17 @@ main {
 aside {
   flex: 1;
   background-color: #b9c6ae;
-  padding: 80px;
+  padding: 60px;
   text-align: center;
+}
+
+aside h2 {
+  font-size: 2.75rem;
+}
+
+aside img {
+  border-radius: 50%;
+  margin: 20px;
 }
 
 footer {
