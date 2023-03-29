@@ -26,7 +26,7 @@ body {
   margin: 0;
 }
 
-body p {
+p {
   font-size: 1.7rem;
 }
 
@@ -73,6 +73,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
 
 /* 
@@ -90,7 +91,7 @@ We are making the product card not growable, not shrinkable, and with an initial
   margin: 5px;
 }
 
-.card header {
+.card {
   padding: 20px;
 }
 
@@ -103,7 +104,7 @@ We are making the product card not growable, not shrinkable, and with an initial
 }
 
 /*If h2 is selected here with a comma it will apply to all h2s on html*/
-section.first-card {
+.first-card {
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
@@ -112,6 +113,10 @@ section.first-card {
   flex: 0 0 500px;
   margin: 5px;
 }
+/*
+section h2 {
+  font-size: 2rem; 
+} */
 
 .first-card header {
   padding: 20px;
