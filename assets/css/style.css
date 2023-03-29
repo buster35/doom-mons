@@ -18,7 +18,7 @@ nav {
   display: flex;
   font-size: 4rem;
   justify-content: space-evenly;
-  background-color: #d8a47f;
+  background-color: #7fbfd8;
 }
 
 body {
@@ -44,7 +44,7 @@ main {
 
 aside {
   flex: 1;
-  background-color: #b9c6ae;
+  background-color: #aec2c6;
   padding: 60px;
   text-align: center;
 }
@@ -59,19 +59,16 @@ aside img {
 }
 
 footer {
+  font-size: 2rem;
   padding: 20px;
   text-align: center;
   background: #13293d;
   color: #fff;
 }
 
-/* 
-What does the justify-content property do?
-It is used to align the flex items; in our case, the product cards 
-*/
-.products {
+.projects {
   flex: 4;
-  background-color: #fff;
+  background-color: darkgrey;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -105,12 +102,14 @@ We are making the product card not growable, not shrinkable, and with an initial
   width: 100%;
 }
 
-.first-card {
+/*If h2 is selected here with a comma it will apply to all h2s on html*/
+section.first-card {
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
+  font-size: 2rem;
   padding: 10px;
-  flex: 0 0 1000px;
+  flex: 0 0 500px;
   margin: 5px;
 }
 
@@ -133,8 +132,13 @@ What is it doing here?
 We are telling the main body and navbar to stack vertically in a column
 */
 @media screen and (max-width: 768px) {
-  main,
   nav {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .projects {
     flex-direction: column;
   }
 }
