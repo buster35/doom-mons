@@ -33,13 +33,17 @@ p {
 nav a {
   color: #13293d;
   padding: 14px 20px;
-  text-decoration: none;
-  text-align: center;
+  text-decoration: none; /*removes lines on bottom of nav links*/
+  text-align: center; /*keeps nav links centered when flex column occurs while screen res is reduced*/
 }
 
 main {
   display: flex;
   flex-wrap: wrap;
+}
+
+h2 {
+  font-size: 2.5rem;
 }
 
 aside {
@@ -49,7 +53,7 @@ aside {
   text-align: center;
 }
 
-aside h2 {
+aside {
   font-size: 2.75rem;
 }
 
