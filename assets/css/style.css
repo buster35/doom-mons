@@ -51,9 +51,6 @@ aside {
   background-color: #aec2c6;
   padding: 60px;
   text-align: center;
-}
-
-aside {
   font-size: 2.75rem;
 }
 
@@ -76,31 +73,43 @@ footer {
   display: flex;
   flex-wrap: wrap;
   /* flex-direction: column; */
-  flex: 4 0 100px;
+  flex: 4 0 100px; /*applied to main container size, NOT ind images*/
   align-items: center;
   text-align: center;
 }
 
-.projects h2 {
+.image-boxes {
   margin: 10px;
+  text-align: center;
+  font-size: 2rem;
 }
 
-/*
-flex: shorthand property for the flex-grow, flex-shrink, and flex-basis properties 
-We are making the product card not growable, not shrinkable, and with an initial length of 400px 
-*/
+#first-card {
+  border-style: solid;
+  border-width: 1px;
+  /* border-radius: 10px; */
+  font-size: 2rem;
+  padding: 10px;
+  flex: 4 0 500px;
+  align-self: flex-start;
+  margin: 5px;
+}
+
+#first-card h2 {
+  text-align: center;
+}
+
+#first-card img {
+  width: 95%;
+}
 
 .card {
   border-style: solid;
   border-width: 1px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   padding: 10px;
   flex: 0 0 100px;
   margin: 5px;
-}
-
-.card {
-  padding: 10px;
 }
 
 .card p {
@@ -109,32 +118,6 @@ We are making the product card not growable, not shrinkable, and with an initial
 
 .card img {
   width: 100%;
-}
-
-#first-card {
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 10px;
-  font-size: 2rem;
-  padding: 10px;
-  flex: 4 0 500px;
-  margin: 5px;
-}
-/*
-section h2 {
-  font-size: 2rem; 
-} */
-
-/* .first-card h2 {
-  padding: 20px;
-} */
-
-#first-card p {
-  text-align: center;
-}
-
-#first-card img {
-  width: 95%;
 }
 
 /* 
