@@ -71,32 +71,36 @@ footer {
 }
 
 .projects {
-  flex: 4;
   background-color: darkgrey;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* flex-direction: column; */
+  flex: 4 0 100px;
+  align-items: center;
   text-align: center;
 }
 
-/* 
-What is the flex property a shorthand property for?
-It is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties 
-What is it doing here?
+.projects h2 {
+  margin: 10px;
+}
+
+/*
+flex: shorthand property for the flex-grow, flex-shrink, and flex-basis properties 
 We are making the product card not growable, not shrinkable, and with an initial length of 400px 
 */
+
 .card {
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
   padding: 10px;
-  flex: 0 0 400px;
+  flex: 0 0 100px;
   margin: 5px;
 }
 
 .card {
-  padding: 20px;
+  padding: 10px;
 }
 
 .card p {
@@ -107,14 +111,13 @@ We are making the product card not growable, not shrinkable, and with an initial
   width: 100%;
 }
 
-/*If h2 is selected here with a comma it will apply to all h2s on html*/
-.first-card {
+#first-card {
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
   font-size: 2rem;
   padding: 10px;
-  flex: 0 0 500px;
+  flex: 4 0 500px;
   margin: 5px;
 }
 /*
@@ -122,15 +125,15 @@ section h2 {
   font-size: 2rem; 
 } */
 
-.first-card header {
+/* .first-card h2 {
   padding: 20px;
-}
+} */
 
-.first-card p {
+#first-card p {
   text-align: center;
 }
 
-.first-card img {
+#first-card img {
   width: 95%;
 }
 
