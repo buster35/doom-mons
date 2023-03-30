@@ -48,21 +48,15 @@ nav a {
   padding-left: 20px;
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 h2 {
   font-size: 1.75rem;
 }
 
 aside {
-  /* flex: 1; */
   background-color: #aec2c6;
-  padding: 10px 60px;
   text-align: center;
   font-size: 1.75rem;
+  padding: 10px 0;
 }
 
 aside img {
@@ -75,21 +69,17 @@ aside img {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column; */
-  /* flex: 4 0 500px; */
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-#work-header {
+.work-header {
   align-self: flex-start;
 }
 
 #first-card {
   border-style: none;
-  /* border-width: 1px; */
-  /* border-radius: 10px; */
   font-size: 2rem;
   padding: 10px;
   /*  flex: 4 0 100px; - removed because flex doesn't need to occur within this flex item*/
@@ -109,11 +99,9 @@ aside img {
 
 .card {
   border-style: none;
-  /* border-width: 1px; */
-  /* border-radius: 10px; */
   padding: 10px;
   margin: 5px;
-  flex: 2 0 100px;
+  flex: 2 0 50px;
 }
 
 .card h2 {
@@ -122,7 +110,8 @@ aside img {
 }
 
 .card img {
-  width: 95%;
+  width: 80%;
+  height: 70%;
 }
 
 #second-card {
@@ -135,7 +124,7 @@ aside img {
 
 footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   font-size: 1.5rem;
   padding: 30px;
@@ -145,8 +134,7 @@ footer {
 }
 
 .pseudo-contact {
-  font-size: 1rem;
-  margin-right: 75%;
+  font-size: 1.3rem;
 }
 
 .pseudo-contact ul {
@@ -154,14 +142,29 @@ footer {
   line-height: 150%;
 }
 
+#github-link {
+  text-decoration: none;
+  color: #fff;
+}
+
 @media screen and (max-width: 768px) {
   nav {
     flex-direction: column;
+  }
+  #second-card,
+  #third-card,
+  #fourth-card {
+    align-self: flex-start;
   }
 }
 
 @media screen and (max-width: 900px) {
   .projects {
     flex-direction: column;
+  }
+  #second-card,
+  #third-card,
+  #fourth-card {
+    align-self: flex-start;
   }
 }
