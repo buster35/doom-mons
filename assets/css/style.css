@@ -81,19 +81,13 @@ aside img {
   align-self: flex-start;
 }
 
-/* .image-boxes {
-  margin: 10px;
-  text-align: center;
-  font-size: 2rem;
-} */
-
 #first-card {
   border-style: none;
   /* border-width: 1px; */
   /* border-radius: 10px; */
   font-size: 2rem;
   padding: 10px;
-  /*  flex: 4 0 100px; */
+  /*  flex: 4 0 100px; - removed because flex doesn't need to occur within this flex item*/
   align-self: flex-start;
   margin: 5px;
 }
