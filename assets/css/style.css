@@ -5,7 +5,7 @@
 
 header {
   display: flex;
-  font-size: 8rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #fff;
   padding: 40px;
@@ -14,9 +14,14 @@ header {
   background-image: linear-gradient(to left top, #022655, #dededf);
 }
 
+span {
+  font-size: 1rem;
+  font-style: italic;
+}
+
 nav {
   display: flex;
-  font-size: 4rem;
+  font-size: 2rem;
   justify-content: space-evenly;
   background-color: #7fbfd8;
 }
@@ -27,7 +32,8 @@ body {
 }
 
 p {
-  font-size: 1.7rem;
+  font-size: 1rem;
+  line-height: 125%;
 }
 
 nav a {
@@ -43,7 +49,7 @@ main {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 aside {
@@ -60,8 +66,7 @@ aside img {
 }
 
 .projects {
-  background-image: url("./assets/images/cool-coffee.jpg");
-  background-color: darkgrey;
+  background-color: lightcyan;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -95,6 +100,7 @@ aside img {
 
 #first-card h2 {
   text-align: center;
+  padding-bottom: 0.5rem;
 }
 
 #first-card img {
@@ -107,11 +113,12 @@ aside img {
   /* border-radius: 10px; */
   padding: 10px;
   margin: 5px;
-  flex: 250px;
+  flex: 2 0 100px;
 }
 
-.card p {
+.card h2 {
   text-align: center;
+  padding-bottom: 0.5rem;
 }
 
 .card img {
@@ -120,9 +127,9 @@ aside img {
 
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 30px;
   text-align: center;
   background: #13293d;
@@ -130,7 +137,8 @@ footer {
 }
 
 .pseudo-contact {
-  font-size: 4rem;
+  font-size: 1rem;
+  margin-right: 75%;
 }
 
 .pseudo-contact ul {
