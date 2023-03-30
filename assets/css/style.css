@@ -119,6 +119,9 @@ aside img {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 2rem;
   padding: 30px;
   text-align: center;
@@ -127,7 +130,12 @@ footer {
 }
 
 .pseudo-contact {
-  font-size: 2rem;
+  font-size: 4rem;
+}
+
+.pseudo-contact ul {
+  list-style: none;
+  line-height: 150%;
 }
 
 @media screen and (max-width: 768px) {
