@@ -43,6 +43,11 @@ nav a {
   text-align: center; /*keeps nav links centered when flex column occurs while screen res is reduced*/
 }
 
+.work-tag {
+  padding-right: 0px;
+  padding-left: 20px;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -53,9 +58,9 @@ h2 {
 }
 
 aside {
-  flex: 1;
+  /* flex: 1; */
   background-color: #aec2c6;
-  padding: 60px;
+  padding: 10px 60px;
   text-align: center;
   font-size: 1.75rem;
 }
@@ -98,7 +103,8 @@ aside img {
 }
 
 #first-card img {
-  width: 95%;
+  width: 25rem;
+  height: 40rem;
 }
 
 .card {
@@ -117,6 +123,14 @@ aside img {
 
 .card img {
   width: 95%;
+}
+
+#second-card {
+  align-self: flex-start;
+}
+
+#fourth-card {
+  align-self: flex-end;
 }
 
 footer {
