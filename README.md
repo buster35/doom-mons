@@ -12,9 +12,11 @@ There's also a footer section containing contact information. Thanks for visitin
 
 GitHub Repo: https://github.com/buster35/doom-mons
 
-GitHub Pages (live):
+GitHub Pages (live): https://buster35.github.io/doom-mons/
 
 ## Screenshots
+
+![Initial Deployed Site](/assets/images/deployed-site-initial-1.png)
 
 ## Credits
 
